@@ -1,0 +1,1112 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+        <title>MDB4</title>
+        <meta name="description" content="Another website by Steve Shead" />
+        <meta name="keywords" content="text style, link style, link hover, effect, animation, inspiration, web design" />
+        <meta name="author" content="Steve Shead" />
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Font Awesome -->         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"> 
+        <!-- Bootstrap core CSS -->         
+        <link href="css/bootstrap.min.css" rel="stylesheet"> 
+        <!-- Material Design Bootstrap -->         
+        <link href="css/mdb.min.css" rel="stylesheet"> 
+        <!-- Your custom styles (optional) -->         
+        <link href="css/style.min.css" rel="stylesheet"> 
+    </head>     
+    <body data-spy="scroll" data-target="#navbarNav1">
+        <header>
+            <nav class="navbar fixed-top navbar-toggleable-md scrolling-navbar navbar-dark">
+                <div class="container">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><i class="fa fa-code">&nbsp;</i><strong><span>S2</span>DESIGN</strong></a>
+                    <div class="collapse navbar-collapse" id="navbarNav1">
+                        <ul class="navbar-nav mr-auto smooth-scroll">
+                            <li class="nav-item home-nav active">
+                                <a href="#home" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#features" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#news" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item btn-group dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <a href="#team" class="dropdown-item">Our Team</a>
+                                    <a href="#gallery" class="dropdown-item">Photo Gallery</a>
+                                    <a href="#" class="dropdown-item">So Much More</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-magento btn-sm" data-toggle="modal" data-target="#modalLogin">
+                            Login
+</button>
+                        <button type="button" class="btn btn-magento btn-sm" data-toggle="modal" data-target="#modalRegister">
+                            Sign Up
+</button>
+                        <div class="modal fade navmodal" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog cascading-modal" role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header darken-3 white-text">
+                                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="title"><i class="fa fa-user"></i> Log in</h4>
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body">
+                                        <div class="md-form form-sm">
+                                            <i class="fa fa-envelope prefix"></i>
+                                            <input type="text" id="form30" class="form-control">
+                                            <label for="form30">Your email</label>
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="fa fa-lock prefix"></i>
+                                            <input type="password" id="form31" class="form-control">
+                                            <label for="form31">Your password</label>
+                                        </div>
+                                        <div class="text-center mt-2">
+                                            <button class="btn btn-magento">Log in 
+                                                <i class="fa fa-sign-in ml-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!--Footer-->
+                                    <div class="modal-footer">
+                                        <div class="options text-center text-md-right mt-1">
+                                            <p>Not a member? <a href="#">Sign Up</a></p>
+                                            <p>Forgot <a href="#">Password?</a></p>
+                                        </div>
+                                        <button type="button" class="btn btn-magento-outline waves-effect ml-auto" data-dismiss="modal">Close 
+                                            <i class="fa fa-times-circle ml-1"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!--/.Content-->
+                            </div>
+                        </div>
+                        <div class="modal fade navmodal" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog cascading-modal" role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header darken-3 white-text">
+                                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="title"><i class="fa fa-user-plus"></i> Register</h4>
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body">
+                                        <div class="md-form form-sm">
+                                            <i class="fa fa-envelope prefix"></i>
+                                            <input type="text" id="form32" class="form-control">
+                                            <label for="form32">Your email</label>
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="fa fa-lock prefix"></i>
+                                            <input type="password" id="form33" class="form-control">
+                                            <label for="form33">Your password</label>
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="fa fa-lock prefix"></i>
+                                            <input type="password" id="form34" class="form-control">
+                                            <label for="form34">Re-enter password</label>
+                                        </div>
+                                        <div class="text-center mt-2">
+                                            <button class="btn btn-magento">Sign up 
+                                                <i class="fa fa-sign-in ml-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!--Footer-->
+                                    <div class="modal-footer">
+                                        <div class="options text-center text-md-right mt-1">
+                                            <p>Already have an account? <a href="#">Log In</a></p>
+                                        </div>
+                                        <button type="button" class="btn btn-magento-outline waves-effect ml-auto" data-dismiss="modal">Close 
+                                            <i class="fa fa-times-circle ml-1"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!--/.Content-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="home" class="home view hm-black-strong">
+                <div class="full-bg-img flex-center">
+                    <ul>
+                        <li>
+                            <h1 class="h1-responsive wow fadeInDown" data-wow-duration="1.3s">WE LOVE <span>INSPIRING</span> DESIGN</h1>
+                        </li>
+                        <li>
+                            <h2 class="h2-responsive wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">INSPIRED BY GENIUS - DRIVEN BY PASSION</h2>
+                            <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                Vivamus laoreet praesent egestas neque enim suspendisse enim turpis</p>
+                            <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.6s">dictum sed iaculis a condimentum nec nisi cum sociis natoque.</p>
+                        </li>
+                        <li class="wow fadeInDown mt-4">
+                            <a class="btn-hero btn-lg wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><i class="fa fa-code"></i>Get Started</a>
+                            <a class="btn-hero-purple btn-lg wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1s"><i class="fa fa-code-fork"></i>Learn more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="services" class="section">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">SERVICES SECTION</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                    <br />
+                    <div class="row text-center smooth-scroll">
+                        <!--First column-->
+                        <div class="col-lg-4 col-md-12 mb-1 wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                            <!--Featured image-->
+                            <div class="view overlay hm-white-slight z-depth-2">
+                                <img src="img/services1.jpg">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--Excerpt-->
+                            <div class="card-block">
+                                <a href="#"><h5><i class="fa fa-users"></i> People Power</h5></a>
+                                <h3>Creative Design</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                                <a href="#details" class="btn btn-magento"><i class="fa fa-clone left"></i>Learn more</a>
+                            </div>
+                        </div>
+                        <!--/First column-->
+                        <!--Second column-->
+                        <div class="col-lg-4 col-md-6 mb-1 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                            <!--Featured image-->
+                            <div class="view overlay hm-white-slight z-depth-2">
+                                <img src="img/services2.jpg">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--Excerpt-->
+                            <div class="card-block">
+                                <a href="#"><h5><i class="fa fa-slack"></i>Software Engineering</h5></a>
+                                <h3>Code Development</h3>
+                                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime facere possimus.</p>
+                                <a href="#details" class="btn btn-magento"><i class="fa fa-clone left"></i>Learn more</a>
+                            </div>
+                        </div>
+                        <!--/Second column-->
+                        <!--Third column-->
+                        <div class="col-lg-4 col-md-6 mb-1 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <!--Featured image-->
+                            <div class="view overlay hm-white-slight z-depth-2">
+                                <img src="img/services3.jpg">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--Excerpt-->
+                            <div class="card-block">
+                                <a href="#"><h5><i class="fa fa-instagram"></i> Social Media</h5></a>
+                                <h3>SEO Marketing</h3>
+                                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+                                <a href="#details" class="btn btn-magento"><i class="fa fa-clone left"></i>Learn more</a>
+                            </div>
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                </div>
+                <!--Section heading-->
+                <!--Section description-->
+                <!--First row-->
+                <!--/First row-->
+            </section>
+            <section class="subscribe">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-6 col-xs-12 offset-md-2">
+                            <h2 class="h2-responsive wow fadeInLeft" data-wow-duration="1.3s">Subscribe to our Newsletter</h2>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <button type="button" class="btn btn-magento btn-lg wow fadeInRight" data-wow-duration="1.3s" data-toggle="modal" data-target="#modalSubscription">
+                                Subscribe Now
+</button>
+                            <div class="modal fade text-left" id="modalSubscription" tabindex="-1" role="dialog" aria-labelledby="subscriptionModal" aria-hidden="true">
+                                <div class="modal-dialog cascading-modal" role="document">
+                                    <!--Content-->
+                                    <div class="modal-content">
+                                        <!--Header-->
+                                        <div class="modal-header purple-theme white-text">
+                                            <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="title"><i class="fa fa-newspaper-o"></i> Subscription form</h4>
+                                        </div>
+                                        <!--Body-->
+                                        <div class="modal-body mb-0">
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-lock prefix"></i>
+                                                <input type="password" id="form27" class="form-control">
+                                                <label for="form27">Your name</label>
+                                            </div>
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-envelope prefix"></i>
+                                                <input type="text" id="form28" class="form-control">
+                                                <label for="form28">Your email</label>
+                                            </div>
+                                            <div class="text-center mt-1-half">
+                                                <button class="btn btn-magento mb-1">Submit 
+                                                    <i class="fa fa-check ml-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.Content-->
+                                </div>
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+            </section>
+            <section id="features" class="section feature feature-box">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">PRODUCT HIGHLIGHT</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                    <br />
+                    <div class="row features-small">
+                        <!--First column-->
+                        <div class="col-md-4">
+                            <!--First row-->
+                            <div class="row wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                <div class="col-2">
+                                    <i class="fa fa-html5"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">HTML5</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/First row-->
+                            <!--Second row-->
+                            <div class="row wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <div class="col-2">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">Code Dev</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/Second row-->
+                            <!--Third row-->
+                            <div class="row wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                <div class="col-2">
+                                    <i class="fa fa-flask"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">Experiments</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/Third row-->
+                        </div>
+                        <!--/First column-->
+                        <!--Second column-->
+                        <div class="col-md-4 mb-r center-on-small-only flex-center">
+                            <img src="img/iphone3.jpg" alt="" class="z-depth-0 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        </div>
+                        <!--/Second column-->
+                        <!--Third column-->
+                        <div class="col-md-4">
+                            <!--First row-->
+                            <div class="row wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <div class="col-2">
+                                    <i class="fa fa-css3"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">CSS3</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/First row-->
+                            <!--Second row-->
+                            <div class="row wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                <div class="col-2">
+                                    <i class="fa fa-code-fork"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">Code Repo</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/Second row-->
+                            <!--Third row-->
+                            <div class="row wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                <div class="col-2">
+                                    <i class="fa fa-magic"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h4 class="feature-title">The Magic</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                    <div style="height:30px"></div>
+                                </div>
+                            </div>
+                            <!--/Third row-->
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                </div>
+                <!--Section heading-->
+                <!--Section sescription-->
+                <!--First row-->
+                <!--/First row-->
+            </section>
+            <section id="counters" class="counters">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">PRODUCT HIGHLIGHT</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                    <div class="row mb-2">
+                        <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-duration="1.3s">
+                            <div class="progress blue">
+                                <span class="progress-left"><span class="progress-bar"></span></span>
+                                <span class="progress-right"><span class="progress-bar"></span></span>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <div class="col-md-12 text-center mt-1">
+                                <h5>HTML5</h5> 
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <div class="progress yellow">
+                                <span class="progress-left"><span class="progress-bar"></span></span>
+                                <span class="progress-right"><span class="progress-bar"></span></span>
+                                <div class="progress-value">75%</div>
+                            </div>
+                            <div class="col-md-12 text-center mt-1">
+                                <h5>CSS3</h5> 
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                            <div class="progress green">
+                                <span class="progress-left"><span class="progress-bar"></span></span>
+                                <span class="progress-right"><span class="progress-bar"></span></span>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <div class="col-md-12 text-center mt-1">
+                                <h5>JQuery</h5> 
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                            <div class="progress pink">
+                                <span class="progress-left"><span class="progress-bar"></span></span>
+                                <span class="progress-right"><span class="progress-bar"></span></span>
+                                <div class="progress-value">65%</div>
+                            </div>
+                            <div class="col-md-12 text-center mt-1">
+                                <h5>Django</h5> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="news" class="section magazine-section">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">Latest News</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="row text-left">
+                        <!--First column-->
+                        <div class="col-lg-6 col-md-12">
+                            <!--Featured news-->
+                            <div class="single-news">
+                                <!--Image-->
+                                <div class="view overlay hm-white-slight wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                    <img src="img/news-main.jpg" alt="Wider sample post image">
+                                    <a>
+                                        <div class="mask waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                                <!--Excerpt-->
+                                <div class="news-data">
+                                    <a href="#" class="theme-text"><h5 class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.4s"><i class="fa fa-camera-retro"></i> Photography</h5></a>
+                                    <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.5s"><strong><i class="fa fa-clock-o"></i> 02/27/2020</strong></p>
+                                </div>
+                                <h3 class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.6s"><a>Discover the unique mountain world.</a></h3>
+                                <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.7s">Sed ut perspiciatis unde voluptatem omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae explicabo.</p>
+                            </div>
+                            <!--/Featured news-->
+                        </div>
+                        <!--/First column-->
+                        <!--Second column-->
+                        <div class="col-lg-6 col-md-12">
+                            <!--Small news-->
+                            <div class="single-news">
+                                <div class="row">
+                                    <div class="col-md-3 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                        <!--Image-->
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="img/news1.jpg" alt="Minor sample post image">
+                                            <a>
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--Excerpt-->
+                                    <div class="col-md-9 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.1s">
+                                        <p><strong>02/26/2020</strong></p>
+                                        <a>Arctic beauty in all its glory!<i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Small news-->
+                            <!--Small news-->
+                            <div class="single-news">
+                                <div class="row">
+                                    <div class="col-md-3 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                        <!--Image-->
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="img/news2.jpg" alt="Minor sample post image">
+                                            <a>
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--Excerpt-->
+                                    <div class="col-md-9 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                        <p><strong>02/25/2020</strong></p>
+                                        <a>The fox in its native environment.<i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Small news-->
+                            <!--Small news-->
+                            <div class="single-news">
+                                <div class="row">
+                                    <div class="col-md-3 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                        <!--Image-->
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="img/news3.jpg" alt="Minor sample post image">
+                                            <a>
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--Excerpt-->
+                                    <div class="col-md-9 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                        <p><strong>02/24/2020</strong></p>
+                                        <a>Culinary delights across Europe.<i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Small news-->
+                            <!--Small news-->
+                            <div class="single-news">
+                                <div class="row">
+                                    <div class="col-md-3 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                        <!--Image-->
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="img/news4.jpg" alt="Minor sample post image">
+                                            <a>
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--Excerpt-->
+                                    <div class="col-md-9 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                        <p><strong>02/23/2016</strong></p>
+                                        <a>Nature photography for beginners.<i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Small news-->
+                        </div>
+                        <!--/Second column-->
+                    </div>
+                </div>
+                <!--Section heading-->
+                <!--Section description-->
+                <!--First row-->
+                <!--/First row-->
+            </section>
+            <section class="inspiration">
+                <div class="streak streak-lg streak-photo" style="background-image:url('img/laptop_bg.jpg')">
+                    <div class="flex-center white-text pattern-1">
+                        <ul>
+                            <li>
+                                <h1 class="h1-responsive wow zoomIn" data-wow-duration="1.3s"><i class="fa fa-quote-left" aria-hidden="true"></i> Inspired by genius - driven by passion. <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            </li>
+                            <li>
+                                <h5 class="text-xs-center font-italic wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.4s">~ Steve Shead</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="section team">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">Featured Developers</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+                    <br>
+                    <div class="row">
+                        <!--First column-->
+                        <div class="col-lg-4 col-md-12 wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                            <!--Rotating card-->
+                            <div class="card-wrapper">
+                                <div id="card-1" class="card-rotating effect__click">
+                                    <!--Front Side-->
+                                    <div class="face front">
+                                        <!-- Image-->
+                                        <div class="card-up">
+                                            <img src="img/team_bg_1.jpg">
+                                        </div>
+                                        <!--Avatar-->
+                                        <div class="avatar">
+                                            <img src="img/avatar-1.jpg" class="rounded-circle img-responsive">
+                                        </div>
+                                        <!--Content-->
+                                        <div class="card-block">
+                                            <h4>Josey Bergan</h4>
+                                            <p>Full Stack Engineer</p>
+                                            <!--Triggering button-->
+                                            <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                                        </div>
+                                    </div>
+                                    <!--/.Front Side-->
+                                    <!--Back Side-->
+                                    <div class="face back">
+                                        <!--Content-->
+                                        <h4>About me</h4>
+                                        <hr>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum repellendus, voluptatum eum, officia laudantium quaerat?</p>
+                                        <hr>
+                                        <!--Social Icons-->
+                                        <ul class="inline-ul">
+                                            <li>
+                                                <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+                                            </li>
+                                        </ul>
+                                        <!--Triggering button-->
+                                        <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                                    </div>
+                                    <!--/.Back Side-->
+                                </div>
+                            </div>
+                            <!--/.Rotating card-->
+                        </div>
+                        <!--/First column-->
+                        <!--Second column-->
+                        <div class="col-lg-4 col-md-12 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                            <!--Rotating card-->
+                            <div class="card-wrapper">
+                                <div id="card-2" class="card-rotating effect__click">
+                                    <!--Front Side-->
+                                    <div class="face front">
+                                        <!-- Image-->
+                                        <div class="card-up">
+                                            <img src="img/team_bg_2.jpg">
+                                        </div>
+                                        <!--Avatar-->
+                                        <div class="avatar">
+                                            <img src="img/avatar-2.jpg" class="rounded-circle img-responsive">
+                                        </div>
+                                        <!--Content-->
+                                        <div class="card-block">
+                                            <h4>Krissy Lavers</h4>
+                                            <p>Front-End Developer</p>
+                                            <!--Triggering button-->
+                                            <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                                        </div>
+                                    </div>
+                                    <!--/.Front Side-->
+                                    <!--Back Side-->
+                                    <div class="face back">
+                                        <!--Content-->
+                                        <h4>About me</h4>
+                                        <hr>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum repellendus, voluptatum eum, officia laudantium quaerat?</p>
+                                        <hr>
+                                        <!--Social Icons-->
+                                        <ul class="inline-ul">
+                                            <li>
+                                                <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm drib-ic"><i class="fa fa-dribbble"> </i></a>
+                                            </li>
+                                        </ul>
+                                        <!--Triggering button-->
+                                        <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                                    </div>
+                                    <!--/.Back Side-->
+                                </div>
+                            </div>
+                            <!--/.Rotating card-->
+                        </div>
+                        <!--/Second column-->
+                        <!--Third column-->
+                        <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                            <!--Rotating card-->
+                            <div class="card-wrapper">
+                                <div id="card-3" class="card-rotating effect__click">
+                                    <!--Front Side-->
+                                    <div class="face front">
+                                        <!-- Image-->
+                                        <div class="card-up">
+                                            <img src="img/team_bg_3.jpg">
+                                        </div>
+                                        <!--Avatar-->
+                                        <div class="avatar">
+                                            <img src="img/avatar-3.jpg" class="rounded-circle img-responsive">
+                                        </div>
+                                        <!--Content-->
+                                        <div class="card-block">
+                                            <h4>Laura Melton</h4>
+                                            <p>Front-end Developer</p>
+                                            <!--Triggering button-->
+                                            <a class="rotate-btn" data-card="card-3"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                                        </div>
+                                    </div>
+                                    <!--/.Front Side-->
+                                    <!--Back Side-->
+                                    <div class="face back">
+                                        <!--Content-->
+                                        <h4>About me</h4>
+                                        <hr>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum repellendus, voluptatum eum, officia laudantium quaerat?</p>
+                                        <hr>
+                                        <!--Social Icons-->
+                                        <ul class="inline-ul">
+                                            <li>
+                                                <a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm git-ic"><i class="fa fa-github"> </i></a>
+                                            </li>
+                                            <li>
+                                                <a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                        <!--Triggering button-->
+                                        <a class="rotate-btn" data-card="card-3"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                                    </div>
+                                    <!--/.Back Side-->
+                                </div>
+                            </div>
+                            <!--/.Rotating card-->
+                        </div>
+                        <div class="col-md-12 mt-3 text-center">
+                            <h3 class="h3-responsive wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">We have the most talented and passionate developers</h3> 
+                            <p class=" wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s">Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Cras sagittis. Ut non enim eleifend felis pretium feugiat. Suspendisse potenti.</p> 
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                </div>
+                <!--Section heading-->
+                <!--Section sescription-->
+            </section>
+            <section class="inspiration">
+                <div class="streak streak-lg streak-photo" style="background-image:url('img/inspiration_bg.jpg')">
+                    <div class="flex-center white-text pattern-1">
+                        <ul>
+                            <li>
+                                <h1 class="h1-responsive white-text wow zoomIn" data-wow-duration="1.3s">Incredibly Creative Designs</h1>
+                                <h2 class="h2-responsive white-text wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.7s">Inspired by Genius - Driven by Passion</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery" class="gallery">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">Photo Gallery</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+                    <br>
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <div id="mdb-lightbox-ui"></div>
+                            <div class="mdb-lightbox">
+                                <figure class="col-md-4 wow fadeInLeft" data-wow-duration="1.3s">
+                                    <a href="img/gallery/1.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/1.jpg" class="img-fluid">
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInDown" data-wow-duration="1.3s">
+                                    <a href="img/gallery/2.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/2.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInRight" data-wow-duration="1.3s">
+                                    <a href="img/gallery/3.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/3.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                    <a href="img/gallery/4.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/4.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                    <a href="img/gallery/5.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/5.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                    <a href="img/gallery/6.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/6.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                    <a href="img/gallery/7.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/7.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                    <a href="img/gallery/8.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/8.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                    <a href="img/gallery/9.jpg" data-size="1600x1067">
+                                        <img src="img/gallery/9.jpg" class="img-fluid" />
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-6 col-xs-12 offset-md-2">
+                            <h2 class="h2-responsive wow fadeInLeft" data-wow-duration="1.3s">Subscribe to our Newsletter</h2>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <button type="button" class="btn btn-magento btn-lg wow fadeInRight" data-wow-duration="1.3s" data-toggle="modal" data-target="#modalSubscription">
+                                Subscribe Now
+</button>
+                            <div class="modal fade text-left" id="modalSubscription" tabindex="-1" role="dialog" aria-labelledby="subscriptionModal" aria-hidden="true">
+                                <div class="modal-dialog cascading-modal" role="document">
+                                    <!--Content-->
+                                    <div class="modal-content">
+                                        <!--Header-->
+                                        <div class="modal-header purple-theme white-text">
+                                            <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="title"><i class="fa fa-newspaper-o"></i> Subscription form</h4>
+                                        </div>
+                                        <!--Body-->
+                                        <div class="modal-body mb-0">
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-lock prefix"></i>
+                                                <input type="password" id="form27" class="form-control">
+                                                <label for="form27">Your name</label>
+                                            </div>
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-envelope prefix"></i>
+                                                <input type="text" id="form28" class="form-control">
+                                                <label for="form28">Your email</label>
+                                            </div>
+                                            <div class="text-center mt-1-half">
+                                                <button class="btn btn-magento mb-1">Submit 
+                                                    <i class="fa fa-check ml-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.Content-->
+                                </div>
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+            </section>
+            <section id="contact" class="section mb-4 contact">
+                <div class="container">
+                    <h1 class="section-heading wow fadeInDown" data-wow-duration="1.3s">CONTACT US</h1>
+                    <p class="section-description lead wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                    <br />
+                    <div class="row">
+                        <!--First column-->
+                        <div class="col-md-5 mb-2">
+                            <!--Form with header-->
+                            <div class="card">
+                                <div class="card-block">
+                                    <!--Header-->
+                                    <div class="form-header mdb-color wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                        <h3><i class="h3-responsive fa fa-envelope"></i> Send us a Message:</h3>
+                                    </div>
+                                    <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.4s">We will only use your email address to write to you nothing more.  That is our promise.</p>
+                                    <br>
+                                    <!--Body-->
+                                    <div class="md-form wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                        <i class="fa fa-user prefix"></i>
+                                        <input type="text" id="form3" class="form-control">
+                                        <label for="form3">Your name</label>
+                                    </div>
+                                    <div class="md-form wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input type="text" id="form2" class="form-control">
+                                        <label for="form2">Your email</label>
+                                    </div>
+                                    <div class="md-form wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.7s">
+                                        <i class="fa fa-tag prefix"></i>
+                                        <input type="text" id="form32" class="form-control">
+                                        <label for="form32">Subject</label>
+                                    </div>
+                                    <div class="md-form wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                                        <i class="fa fa-pencil prefix"></i>
+                                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                        <label for="form8">Message</label>
+                                    </div>
+                                    <div class="text-center wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                                        <button class="btn btn-magento">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Form with header-->
+                        </div>
+                        <!--/First column-->
+                        <!--Second column-->
+                        <div class="col-md-7">
+                            <!--Google map-->
+                            <div id="map-container" class="z-depth-1-half map-container wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                <iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=37.3382,-121.8863&key=AIzaSyA7sJOlbThz4QfXqWrAvfwljKTwdu-5gfA" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <!--Buttons-->
+                            <div class="row text-center contact-buttons">
+                                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                    <a class="btn-floating btn-small mdb-color"><i class="fa fa-map-marker"></i></a>
+                                    <p class="lead">Our Location</p>
+                                    <p>San Jose, CA</p>
+                                </div>
+                                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                    <a class="btn-floating btn-small mdb-color"><i class="fa fa-phone"></i></a>
+                                    <p class="lead">Give us a call</p>
+                                    <p>+1 (408) 555 6789</p>
+                                </div>
+                                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                    <a class="btn-floating btn-small mdb-color"><i class="fa fa-envelope"></i></a>
+                                    <p class="lead">Email Us</p>
+                                    <p>me@here.com</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <h5 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Inspired by Genius - Driven by Passion</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Second column-->
+                    </div>
+                </div>
+                <!--Section heading-->
+                <!--Section sescription-->
+            </section>
+        </main>
+        <footer class="page-footer center-on-small-only elegant-color-dark">
+            <!--Footer Links-->
+            <div class="container">
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-3">
+                        <img class="img-fluid wow fadeInDown" data-wow-duration="1.3s" alt="Responsive image" src="img/logo.png" />
+                        <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s"><em>"In consectetuer turpis ut elit velit nam lorem pretium turpis et arcu in auctor lobortis lacus maecenas ipsum."</em></p>
+                        <p class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.3s">
+    The Design Professor</p>
+                    </div>
+                    <!--/.First column-->
+                    <!--Second column-->
+                    <div class="offset-md-1 col-md-3">
+                        <h5 class="h5-responsive title wow fadeInDown" data-wow-duration="1.3s">General Links</h5>
+                        <ul class="footer-menus">
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Company</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Careers</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Privacy Policy</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Terms & Conditions</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Client Gateway</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.7s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Ranking</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Case Studies</a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                                <i class="fa fa-check"></i>
+                                <a href="#"> Frequently Ask Questions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.Second column-->
+                    <hr class="hidden-md-up">
+                    <!--Third column-->
+                    <div class="col-md-4">
+                        <h5 class="title wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">Latest Posts</h5>
+                        <ul class="latest-posts">
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                <i class="fa fa-long-arrow-right"></i>
+                                <a href="#">Arctic beauty in all its glory.</a>
+                                <br>
+                                02/26/2020
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                <i class="fa fa-long-arrow-right"></i>
+                                <a href="#">The fox in its native environment.</a>
+                                <br>
+                                02/25/2020
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <i class="fa fa-long-arrow-right"></i>
+                                <a href="#">Culinary delights across Europe.</a>
+                                <br>
+                                02/24/2020
+                            </li>
+                            <li class="wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                <i class="fa fa-long-arrow-right"></i>
+                                <a href="#">Nature photography for beginners.</a>
+                                <br>
+                                02/26/2020
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.Third column-->
+                    <hr class="hidden-md-up">
+                    <!--Fourth column-->
+                    <!--/.Fourth column-->
+                </div>
+            </div>
+            <!--/.Footer Links-->
+            <div class="social-section">
+                <ul>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.1s">
+                        <a href="#" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <a href="#" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                        <a href="#" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                        <a href="#" class="btn-floating btn-small btn-li"><i class="fa fa-linkedin"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <a href="#" class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                        <a href="#" class="btn-floating btn-small btn-pin"><i class="fa fa-pinterest"> </i></a>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.7s">
+                        <a href="#" class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a>
+                    </li>
+                </ul>
+            </div>
+            <!--Call to action-->
+            <!--/.Call to action-->
+            <!--Social buttons-->
+            <!--/.Social buttons-->
+            <!--Copyright-->
+            <div class="footer-copyright">
+                <div class="container-fluid wow fadeInUp">
+                    © 2020 Copyright: 
+                    <a href="http://www.steve-shead.com"> Steve Shead </a>
+                </div>
+            </div>
+            <!--/.Copyright-->
+        </footer>
+        <!-- /Start your project here-->         
+        <!-- SCRIPTS -->         
+        <!-- JQuery -->         
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>         
+        <!-- Bootstrap tooltips -->         
+        <script type="text/javascript" src="js/tether.min.js"></script>         
+        <!-- Bootstrap core JavaScript -->         
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>         
+        <!-- MDB core JavaScript -->         
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+        <script>
+			$(function () {
+		    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+			});
+        </script>
+    </body>     
+</html>
